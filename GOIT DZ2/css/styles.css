@@ -1,17 +1,19 @@
 :root{
-    --fon-color: #E5E5E5;
     --text-colorgre:#757575;
     --text-colorbl:#212121;
     --text-colorwh: #ffffff;
     --hover-colorblu:#2196F3;
     --focus-color:#188ce8;
     --footer-color:#ffffff99;
+    --sect-colordbl:#2F303A;
+    --port-hedrgr:#F5F4FA;
     --text-logo:Raleway;   
+    --text-body:Roboto;
 }
 
 body{
-    font-family:Roboto, sans-serif ;
-    background:var(--fon-color);
+    font-family:var(--text-body), sans-serif ;
+    background:var(--text-colorwh);
     font-size: 14px;
     letter-spacing: 0.03em;
 }
@@ -48,12 +50,12 @@ body{
     color: var(--text-colorbl);
 }
 
-
 .headlink .link:hover,
 .headlink .link:focus
 {
     color: var(--hover-colorblu);
 }
+
 
 /* шрифт шапки контакты */
 
@@ -67,6 +69,10 @@ body{
 }
 
 /* позиция main */
+.order{
+    background-color: var(--sect-colordbl);
+}
+
 .order .efect{
 font-weight: 900;
 font-size: 44px;
@@ -74,7 +80,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-/* color: rgb(255, 255, 255); */
+color: var(--text-colorwh);
 }
 
 /* конмпа заказа */
@@ -114,14 +120,7 @@ border-radius: 4px;
     color: var(--text-colorgre);
 }
 
- .wedoing-title .doing{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    color: var(--text-colorbl);
-}
-
-.team-title{
+ .shead .capit{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -181,9 +180,10 @@ border-radius: 4px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
-color: var(--text-color);
+color: var(--text-colorbl);
 border-radius: 4px;
 cursor: pointer;
+background-color: var(--port-hedrgr);
 }
 
 .radio .button:hover,
