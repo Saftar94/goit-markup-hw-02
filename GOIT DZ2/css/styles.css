@@ -55,7 +55,14 @@ body{
 {
     color: var(--hover-colorblu);
 }
+/* .headlink .link:active{
+    color: var(--hover-colorblu);
+} */
 
+
+.headlink .link.current{
+    color: var(--hover-colorblu);
+}
 
 /* шрифт шапки контакты */
 
@@ -67,6 +74,7 @@ body{
 .contact .link:focus {
     color: var(--hover-colorblu);
 }
+
 
 /* позиция main */
 .order{
